@@ -165,6 +165,6 @@ let g:closetag_close_shortcut = '<leader>>'
 
 
 
-#For scss files, you may need use:
+" For scss files, you may need use:
 
 autocmd FileType scss setl iskeyword+=@-@
