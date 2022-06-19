@@ -82,8 +82,7 @@ nmap <Leader>t :NERDTreeFind<CR>
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 nnoremap <C-D> :Prettier<CR>
 "Configuration key jj as Esc 
-imap <Leader>j <Esc>
-imap <Leader>J <Esc>
+imap  jj <Esc>
 
 "Disable arrowns in normal mode
 noremap <up> <nop> 
@@ -163,3 +162,9 @@ let g:closetag_shortcut = '>'
 " Add > at current position without closing the current tag, default is ''
 "
 let g:closetag_close_shortcut = '<leader>>'
+
+
+
+#For scss files, you may need use:
+
+autocmd FileType scss setl iskeyword+=@-@
