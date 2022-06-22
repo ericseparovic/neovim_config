@@ -1,0 +1,2 @@
+"Configuration THEME
+colorscheme onedark
