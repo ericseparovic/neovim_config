@@ -9,8 +9,11 @@ let mapleader=" "
 "jj == ESC 
 imap  jj <Esc>
 "Ctrl + d == :Prettier (Ejecuta :Prittier para que se formate el archivo)
-imap <C-D> :Prettier<CR>
+imap <C-D> :Prettier.Format<CR>
 
+
+nnoremap <C-j> 10<C-e>
+nnoremap <C-k> 10<C-y>
 
 
 "Disable arrowns in normal mode
